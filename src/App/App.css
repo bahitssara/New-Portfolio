@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.2vw;
+}
+
+body {
+ font-family: 'Muli', sans-serif;
+ text-align: center;
+ color:#1D1E18;
+}

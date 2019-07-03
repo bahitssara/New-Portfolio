@@ -1,0 +1,53 @@
+header {
+  width:100%;
+  height:62px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left:0;
+  margin:0px;
+  background-color:rgba(0, 0, 0, 0.711);
+}
+
+h1 {
+  font-family: 'Philosopher', sans-serif;
+  float: left;
+  margin:0;
+  margin-top: 10px;
+  margin-left: 10px;
+  color:white;
+}
+
+h3 {
+  text-decoration:underline;
+  text-decoration-color: rgba(212, 81, 19, 0.711);
+}
+
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  font-family: 'Muli', sans-serif;
+  padding: 10px;
+  color:white;
+}
+
+header a:link {
+  color:white;
+}
+
+header a:visited {
+  color: white;
+}
+
+header a:hover {
+  cursor: pointer;
+  background: rgba(212, 81, 19, 0.711);
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  transform: scale(1.05) rotate(-1deg);
+}
