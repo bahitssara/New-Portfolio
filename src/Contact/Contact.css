@@ -1,0 +1,33 @@
+.contact-page {
+    margin-top: 90px;
+    display:flex;
+    margin-left: auto;
+    margin-right:auto;
+    flex-direction: column;
+    box-shadow: 8px 8px 5px grey;
+}
+
+.contact-text {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    background-color:rgba(212, 81, 19, 0.711);
+    margin-left:22rem;
+    margin-right:22rem;
+    border-radius: 5px;
+}
+
+.contact {
+    color: black;
+}
+
+.contact-div{
+    padding: 15px;
+}
+
+.contact-img {
+    margin: auto;
+    padding: 5px;
+    width: 75%;
+    border: 2px solid rgba(212, 81, 19, 0.711);
+}

@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer li {
+    font-size: 35px;
+}
+
+.fa-github-square, .fa-envelope, .fa-linkedin {
+    color: black;
+}
+
+.fa-envelope:hover {
+    color: rgba(212, 81, 19, 0.711);
+    cursor: pointer;
+}
+
+.fa-github-square:hover {
+    color: rgba(212, 81, 19, 0.711);
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    color: rgba(212, 81, 19, 0.711);
+    cursor: pointer;
+}
+/* 
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
