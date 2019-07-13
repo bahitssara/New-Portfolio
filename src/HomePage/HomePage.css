@@ -45,59 +45,6 @@ body {
     padding:30px;
 }
 
-.projects {
-    display: flex;
-    flex-direction: column;
-    margin-top:75px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #ffffff;
-    color: #1D1E18;
-    box-shadow: 8px 8px 5px grey;
-}
-
-.projects h2 {
-    font-family: 'Philosopher', sans-serif;
-    color: white;
-    background-color:rgba(212, 81, 19, 0.711);
-    margin-left:19rem;
-    margin-right:19rem;
-    border-radius: 5px;
-}
-
-.projects h3 {
-    color: #1D1E18;
-    text-decoration:underline;
-    text-decoration-color: rgba(212, 81, 19, 0.711);
-
-}
-
-.project-photo {
-    width: 100%;
-    padding:30px;
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
-    border-radius: 4px;
-}
-
-.project-photo:hover {
-    transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%); 
-}
-
-.project-links {
-    font-family: 'Muli', sans-serif;
-    color:white;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 40px;
-}
-
  button {
     background-color:black;
     border-radius: 4px;
@@ -124,105 +71,7 @@ body {
     padding:20px;
 }
 
-.about-me-div {
-    display: flex;
-    margin-top: 70px;
-    margin-left: auto;
-    margin-right:auto;
-    flex-direction:column;
-    width: 80%;
-    padding-top: 20px;
-    padding-bottom:20px;
-    background-color:#ffffff;
-    box-shadow: 8px 8px 5px grey;
-}
-
-.about-me h2 {
-    font-family: 'Philosopher', sans-serif;
-    color: white;
-    background-color:rgba(212, 81, 19, 0.711);
-    margin-left:22rem;
-    margin-right:22rem;
-    border-radius: 5px;
-}
-
-.about-me-photo {
-    width: 100%;
-    padding-left:20px;
-    padding-right:20px;
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
-}
-
-.about-me-text {
-    padding: 10px;
-}
-
-footer li {
-    font-size: 4rem;
-    
-}
-
-footer a:link {
-    color: black;
-}
-
-footer a:visited {
-    color:black;
-}
-
-footer a:hover {
-    cursor: pointer;
-}
-
-.contact-page {
-    margin-top: 150px;
-    display:flex;
-    margin-left: auto;
-    margin-right:auto;
-    flex-direction: column;
-    box-shadow: 8px 8px 5px grey;
-}
-
-.contact-text {
-    text-align: center;
-    font-family: 'Philosopher', sans-serif;
-    color: white;
-    background-color:rgba(212, 81, 19, 0.711);
-    margin-left:22rem;
-    margin-right:22rem;
-    border-radius: 5px;
-}
-
-.contact {
-    color: black;
-}
-
-.contact-page a:link {
-    color:black;
-}
-
-.contact-page a:visited {
-    color:black;
-}
-
-.contact-page a:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-
-}
-
-.footer-links {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-
-
-
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) {
     h1 {
         font-size: 20px;
     }
@@ -370,4 +219,4 @@ footer a:hover {
         font-size: 60px;
     }
 
-}
+} */

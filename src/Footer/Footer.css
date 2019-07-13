@@ -3,6 +3,12 @@
     flex-direction: column;
 }
 
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
 .footer li {
     font-size: 35px;
 }
@@ -25,11 +31,5 @@
     color: rgba(212, 81, 19, 0.711);
     cursor: pointer;
 }
-/* 
-.footer-links {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-} */
 
 

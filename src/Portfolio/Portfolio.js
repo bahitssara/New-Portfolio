@@ -1,4 +1,5 @@
 import React from 'react';
+import './Portfolio.css'
 import QuizAppPic from './QuizAppPic.png'
 import BigMusicGuy from './BigMusicGuy.png'
 
@@ -11,7 +12,7 @@ class Portfolio extends React.Component {
                     <section class="projects">
                         <h2>Projects</h2>
                         <h3>The 1975 Quiz App</h3>
-                        <a href="https://bahitssara.github.io/QUIZAPP/"><img class="project-photo" src={QuizAppPic} alt="project" /></a>
+                        <a href="https://bahitssara.github.io/QUIZAPP/"><img className="project-photo" src={QuizAppPic} alt="project" /></a>
                             <ul class="project-links">
                                 <li>
                                     <button><a href="https://github.com/bahitssara/QUIZAPP" target="_blank" rel="noopener noreferrer">Repository</a></button></li>
@@ -23,7 +24,7 @@ class Portfolio extends React.Component {
 
                     <section class="projects">
                         <h3>Big Music Guy-API HACK</h3>
-                        <a href="https://github.com/bahitssara/Big-Music-Guy"><img class="project-photo" src={BigMusicGuy} alt="project" /></a>
+                        <a href="https://github.com/bahitssara/Big-Music-Guy"><img className="project-photo" src={BigMusicGuy} alt="project" /></a>
                             <ul class="project-links">
                                 <li>
                                     <button><a href="https://github.com/bahitssara/Big-Music-Guy" target="_blank" rel="noopener noreferrer">Repository</a></button></li>
