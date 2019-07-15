@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "name": "sara-mayberry-portfolio",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
