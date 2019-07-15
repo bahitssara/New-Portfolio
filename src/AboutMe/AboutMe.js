@@ -4,8 +4,8 @@ import iMacImg from './iMacG3.jpg'
 
 export default function AboutMe() {
     return(
-        <section class='about-me'>
-        <div class='about-me-div'>
+        <section className='about-me'>
+        <div className='about-me-div'>
             <h2>My Story</h2>
                 <p className='about-me-text'>I remember the first time I felt connected to technology. I was about 5 years old, and I sat down in front of our iMac G3 (circa 1998). I’d spend hours exploring the computer, not realizing that in about 21 years, that this technology & the internet would more or less be crowned King.</p>
                 <img className='about-me-photo' src={iMacImg} alt='iMac g3' />
