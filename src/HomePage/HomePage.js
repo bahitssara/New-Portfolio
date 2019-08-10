@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css'
-import mainImg from './owen-cl-571744-unsplash.jpg'
+import mainImg from './contact-copy.png'
 
 export default function HomePage () {
   return (

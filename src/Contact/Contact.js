@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import contactImg from './contact.jpg'
+import contactImg from './union-station.jpg'
 
 export default function Contact() {
     return(

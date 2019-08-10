@@ -16,8 +16,6 @@
     font-family: 'Philosopher', sans-serif;
     color: white;
     background-color:rgba(212, 81, 19, 0.711);
-    margin-left:19rem;
-    margin-right:19rem;
     border-radius: 5px;
 }
 
@@ -48,4 +46,82 @@
     display: flex;
     justify-content: space-evenly;
     margin-right: 40px;
+}
+
+.project-links a:link {
+    color:white;
+}
+
+.project-links a:visited {
+    color:white;
+}
+
+button {
+    background-color:black;
+    border-radius: 4px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+ button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color:#D45113;
+}
+
+
+@media screen and (min-width: 320px) {
+    .projects {
+        margin-top:75px;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .project-photo {
+        padding:15px;
+    }
+
+    .projects h2 {
+        font-size: 30px;
+        margin-left:60px;
+        margin-right:60px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 765px) {
+    .projects {
+        margin-top:100px;
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .project-photo {
+        padding:15px;
+        width:75%
+    }
+
+    .projects h2 {
+        font-size: 30px;
+        margin-left:200px;
+        margin-right:200px;
+    }
+
+    .projects h3 {
+        font-size: 25px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 20px;
+    }
 }
