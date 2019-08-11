@@ -56,7 +56,7 @@ class Portfolio extends React.Component {
                                 <li>
                                     <button><a href='https://github.com/bahitssara/Just-Go' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
                                 <li>
-                                    <button><a href='https://sara-mayberry-portfolio.saraamayberry.now.sh/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
+                                    <button><a href='https://just-go-app.now.sh/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
                             </ul>
                             <p className='description'>Just Go is an app that allows you to search events by name, location or type and then save them to your profile to potentially purchase later. It uses SeatGeek API to facilitate the search feature and links you to their site to purchase tickets! This full stack app is built with JS, Node.js, PostgreSQL, HTML, and CSS.
 
