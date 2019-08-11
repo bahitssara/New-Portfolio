@@ -6,23 +6,31 @@
     padding-top: 20px;
     padding-bottom:20px;
     background-color:#ffffff;
-    box-shadow: 8px 8px 5px grey;
+    box-shadow: 8px 8px 5px #481620;
 }
 
 .about-me-div h2 {
     margin: auto;
     font-family: 'Philosopher', sans-serif;
     color: white;
-    background-color:rgba(212, 81, 19, 0.711);
+    background-color:#481620;
     width: 50%;
     border-radius: 5px;
 }
 
+.imac-img {
+    border: 5px solid #481620;
+    width: 68%;
+    border-radius:100px;
+    margin: auto;
+    background: #481620;
+}
+
 .about-me-photo {
     margin: auto;
-    width: 55%;
-    /* border: 2px solid rgba(212, 81, 19, 0.711); */
+    width: inherit;
     border-radius:100px;
+    -webkit-filter: grayscale(100%); 
 }
 
 .about-me-text {
@@ -55,10 +63,9 @@
 
 @media screen and (min-width: 765px) {
     .about-me-div {
-        width: 67%;
-        padding-top: 20px;
-        padding-bottom:20px;  
-        margin-right:15px; 
+        font-size: 20px;
+        width: 65%;
+        margin: auto;
     }
 
     .about-me h2 {

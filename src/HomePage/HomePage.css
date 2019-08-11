@@ -37,10 +37,11 @@ body {
     width: 50%;
     border: 2px solid #481620;
     border-radius:100px;
-  }
+}
 
-.description {
-    padding:20px;
+.add-list-text {
+    text-decoration:underline #481620;
+
 }
 
  @media screen and (min-width: 320px) {
@@ -48,14 +49,11 @@ body {
         font-size: 20px;
     }
 
-    nav li {
-        font-size: 15px;
-    }
-
     .headline {
         font-size: 18px;
         margin: auto;
         width:75%;
+        margin-bottom: 15px;
     } 
 
     .main-page {
@@ -73,17 +71,12 @@ body {
         display: none;
     }
 
-    .contact-text {
+    .fa-react, .fa-node-js, .fa-js, .fa-html5, .fa-css3-alt {
         font-size: 30px;
+        margin: 5px;
     }
+    
 
-    .contact {
-        font-size:20px;
-    }
-
-    .contact-page li {
-        font-size: 50px;
-    }
 }
 
 @media screen and (min-width: 700px) {
@@ -107,6 +100,11 @@ body {
         width: 55%;
         border-radius: 10px;
         border: 5px solid #481620;
+    }
+
+    .fa-react, .fa-node-js, .fa-js, .fa-html5, .fa-css3-alt {
+        font-size: 40px;
+        margin: 5px;
     }
 
 }

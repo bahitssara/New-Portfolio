@@ -50,7 +50,7 @@ class Portfolio extends React.Component {
                     </section>
 
                     <section className='projects'>
-                        <h3>Sip & Rate</h3>
+                        <h3>Just Go</h3>
                         <a href='https://github.com/bahitssara/Just-Go'><img className='project-photo' src={JustGo} alt='project' /></a>
                             <ul className='project-links'>
                                 <li>
