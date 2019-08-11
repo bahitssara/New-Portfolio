@@ -1,8 +1,6 @@
 .about-me-div {
     display: flex;
-    margin-top: 100px;
     margin-left: auto;
-    margin-right:auto;
     flex-direction:column;
     width: 80%;
     padding-top: 20px;
@@ -33,10 +31,11 @@
 
 @media screen and (min-width: 320px) {
     .about-me-div {
-        margin-top: 70px;
         width: 80%;
         padding-top: 20px;
-        padding-bottom:20px;   
+        padding-bottom:20px; 
+        margin-left: auto;
+        margin-right:auto;  
     }
 
     .about-me h2 {
@@ -56,10 +55,10 @@
 
 @media screen and (min-width: 765px) {
     .about-me-div {
-        margin-top: 150px;
-        width: 90%;
+        width: 67%;
         padding-top: 20px;
-        padding-bottom:20px;   
+        padding-bottom:20px;  
+        margin-right:15px; 
     }
 
     .about-me h2 {

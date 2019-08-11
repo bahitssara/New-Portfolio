@@ -2,7 +2,6 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import Header from '../Header/Header';
 import HomePage from '../HomePage/HomePage';
-import Footer from '../Footer/Footer';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
 import AboutMe from '../AboutMe/AboutMe';
@@ -16,7 +15,6 @@ class App extends React.Component {
         <Route path='/projects' exact component={Portfolio} />
         <Route path='/about-me' exact component={AboutMe} />
         <Route path='/contact' exact component={Contact} />
-        <Route path='/' component={Footer} />
       </div>
     );
   }

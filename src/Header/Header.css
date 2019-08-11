@@ -1,75 +1,120 @@
-header {
-  width:100%;
-  height:62px;
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left:0;
-  margin:0px;
-  background-color:rgba(0, 0, 0, 0.711);
+  height: 100%;
+  overflow: auto;
 }
 
-header h1 {
-  font-family: 'Philosopher', sans-serif;
-  float: left;
-  margin:0;
-  margin-top: 20px;
-  margin-left: 10px;
-  color:white;
-}
-
-header ul {
-  margin-top: 20px;
-}
-
-.nav-bar {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-}
-
-nav li {
-  font-family: 'Muli', sans-serif;
-  padding: 10px;
-  color:white;
-}
-
-header a:link {
-  color:white;
-}
-
-header a:visited {
+.sidebar a {
+  display: block;
   color: white;
-}
-
-header a:hover {
-  cursor: pointer;
-  background: rgba(212, 81, 19, 0.711);
+  padding: 16px;
   text-decoration: none;
-  color: white;
-  border-radius: 4px;
-  transform: scale(1.05) rotate(-1deg);
 }
-ul a {
-  padding: 5px;
+ 
+.sidebar a.active {
+  background-color: #481620;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.main-image {
+  margin-top:5px;
+  width: 50%;
+  border: 2px solid #481620;
+  border-radius:100px;
+}
+
+.contact-links {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.contact-links a {
+  color: white;
+}
+
+.fa-envelope:hover {
+  color: #481620;
+  cursor: pointer;
+}
+
+.fa-github-square:hover {
+  color: #481620;
+  cursor: pointer;
+}
+
+.fa-linkedin:hover {
+  color: #481620;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar {
+    margin-top:0px;
+
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
 
 @media screen and (min-width: 320px) {
-    header h1 {
-        font-size: 20px;
-    }
-
-    header a {
-        font-size: 15px;
-    } 
-}
-
-@media screen and (min-width: 765px) {
-  header h1 {
-      font-size: 30px;
+  .main-image {
+    display: none;
   }
 
-  header a {
-      font-size: 25px;
+  .contact-links {
+    display:none;
   }
 }
+
+@media screen and (min-width: 700px) {
+  .main-image {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+  }
+
+  .contact-links {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .contact-links {
+    font-size: 30px;
+  }
+}
+
+

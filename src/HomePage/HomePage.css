@@ -6,37 +6,38 @@ body {
     font-family: 'Muli', sans-serif;
     text-align: center;    
     color:#1D1E18;
+    background-color: white;
+
 }
 
  h3 {
     text-decoration:underline;
-    text-decoration-color: rgba(212, 81, 19, 0.711);
+    text-decoration-color: #481620;
 }
 
 .headline {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    margin-right: auto;
     width: 75%;
-    margin-top: 150px;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 8px 8px 5px grey;
+    box-shadow: 8px 8px 5px #481620;
 }  
 
 .main-page {
     font-family: 'Philosopher', sans-serif;
-    background-color: rgba(212, 81, 19, 0.711);
+    background-color: #481620;
     color:white;
     border-radius:4px;
 }
 
-.main-image {
-    width: 40%;
-    border: 2px solid rgba(212, 81, 19, 0.711);
+.main-image-2 {
+    margin:auto;
+    width: 50%;
+    border: 2px solid #481620;
     border-radius:100px;
-}
+  }
 
 .description {
     padding:20px;
@@ -53,7 +54,7 @@ body {
 
     .headline {
         font-size: 18px;
-        margin-top:100px;
+        margin: auto;
         width:75%;
     } 
 
@@ -62,9 +63,14 @@ body {
         margin-right: 10px;
     }
 
-    .main-image {
+    .main-image-2 {
+        display: block;
         width: 45%;
         padding:5px;
+    }
+
+    .main-image-comp {
+        display: none;
     }
 
     .contact-text {
@@ -80,24 +86,40 @@ body {
     }
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 700px) {
     h1 {
         font-size: 35px;
     }
 
-    nav li {
-        font-size: 25px;
-    }
-
     .headline {
         font-size: 20px;
-        margin-top:100px;
-        width:85%;
+        width: 65%;
+        margin-right: 15px;
     } 
 
-    .main-image {
-        width: 30%;
-        padding:5px;
+    .main-image-2 {
+        display: none;
     }
 
+    .main-image-comp {
+        display: block;
+        margin: auto;
+        width: 55%;
+        border-radius: 10px;
+        border: 5px solid #481620;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .headline {
+        font-size: 20px;
+        width: 65%;
+        margin: auto;
+    } 
+
+    .main-image-comp {
+        margin: auto;
+        width: 45%;
+    }  
 }
