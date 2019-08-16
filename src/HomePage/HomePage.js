@@ -2,17 +2,17 @@ import React from 'react'
 import './HomePage.css'
 import { Link } from 'react-router-dom'
 import mainImg from './contact-copy-2.png'
-import compImg from './comp-img.jpeg'
+import compImg from './comp-img2.jpg'
 
 
 export default function HomePage () {
   return (
     <section className='headline headline-mobile'>
       <div className='container'>
-          <h2 className='main-page'>Thanks for coming! Sara here.</h2>
+          <h2 className='main-page'>Sara Mayberry</h2>
+          <h3>Full Stack Web Developer</h3>
           <img className='main-image-2' src={mainImg} alt='lights header' />
           <img className='main-image-comp' src={compImg} alt='comp main' />
-          <h3>Full Stack Web Developer</h3>
           <p className='inside-img'>Currently working with:</p>
             <i className='fab fa-html5' alt='html5'/>
             <i className='fab fa-js' alt='javascript'/>

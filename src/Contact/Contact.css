@@ -3,14 +3,14 @@
     margin-left: auto;
     flex-direction: column;
     background-color: #ffffff;
-    box-shadow: 8px 8px 5px #481620;
+    box-shadow: 8px 8px 5px RGBA(31,42,42,0.85);
 }
 
 .contact-text {
     text-align: center;
     font-family: 'Philosopher', sans-serif;
     color: white;
-    background-color:#481620;
+    background-color:RGBA(31,42,42,0.85);
     border-radius: 5px;
 }
 
@@ -46,7 +46,7 @@
     
     .contact {
         font-size:20px;
-        text-decoration: #481620 underline;
+        text-decoration: RGBA(31,42,42,0.85) underline;
     }
 
     .email-text {

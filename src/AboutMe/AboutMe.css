@@ -1,3 +1,4 @@
+
 .about-me-div {
     display: flex;
     margin-left: auto;
@@ -6,24 +7,22 @@
     padding-top: 20px;
     padding-bottom:20px;
     background-color:#ffffff;
-    box-shadow: 8px 8px 5px #481620;
+    box-shadow: 8px 8px 5px RGBA(31,42,42,0.85);
 }
 
 .about-me-div h2 {
     margin: auto;
     font-family: 'Philosopher', sans-serif;
     color: white;
-    background-color:#481620;
+    background-color:RGBA(31,42,42,0.85);
     width: 50%;
     border-radius: 5px;
 }
 
 .imac-img {
-    border: 5px solid #481620;
     width: 68%;
     border-radius:100px;
     margin: auto;
-    background: #481620;
 }
 
 .about-me-photo {
@@ -61,11 +60,12 @@
     }
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 700px) {
     .about-me-div {
         font-size: 20px;
         width: 65%;
         margin: auto;
+        margin-right: 15px;
     }
 
     .about-me h2 {

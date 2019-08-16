@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: black;
+  background-color: RGBA(134,137,132,0.45);
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -17,13 +17,15 @@
 }
  
 .sidebar a.active {
-  background-color: #481620;
+  background-color: RGBA(31,42,42,0.85)
+  ;
   color: white;
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: RGBA(31,42,42,0.85);
   color: white;
+  border-radius: 5px;
 }
 
 div.content {
@@ -35,7 +37,7 @@ div.content {
 .main-image {
   margin-top:5px;
   width: 50%;
-  border: 2px solid #481620;
+  border: 2px solid RGBA(31,42,42,0.40);
   border-radius:100px;
 }
 
@@ -50,21 +52,6 @@ div.content {
 
 .contact-links a {
   color: white;
-}
-
-.fa-envelope:hover {
-  color: #481620;
-  cursor: pointer;
-}
-
-.fa-github-square:hover {
-  color: #481620;
-  cursor: pointer;
-}
-
-.fa-linkedin:hover {
-  color: #481620;
-  cursor: pointer;
 }
 
 

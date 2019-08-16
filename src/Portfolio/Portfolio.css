@@ -6,20 +6,20 @@
     padding-bottom: 20px;
     background-color: #ffffff;
     color: #1D1E18;
-    box-shadow: 8px 8px 5px #481620;
+    box-shadow: 8px 8px 5px RGBA(31,42,42,0.85);
 }
 
 .projects h2 {
     font-family: 'Philosopher', sans-serif;
     color: white;
-    background-color:#481620;
+    background-color:RGBA(31,42,42,0.85);
     border-radius: 5px;
 }
 
 .projects h3 {
     color: #1D1E18;
     text-decoration:underline;
-    text-decoration-color: #481620;
+    text-decoration-color: RGBA(31,42,42,0.85);
 }
 
 .project-photo {
@@ -54,7 +54,7 @@
 }
 
 button {
-    background-color:#481620;
+    background-color:RGBA(31,42,42,0.85);
     border-radius: 4px;
     color: white;
     padding: 20px;

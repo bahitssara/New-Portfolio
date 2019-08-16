@@ -12,7 +12,7 @@ body {
 
  h3 {
     text-decoration:underline;
-    text-decoration-color: #481620;
+    text-decoration-color: RGBA(31,42,42,0.85);
 }
 
 .headline {
@@ -22,12 +22,12 @@ body {
     width: 75%;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 8px 8px 5px #481620;
+    box-shadow: 8px 8px 5px RGBA(31,42,42,0.85);
 }  
 
 .main-page {
     font-family: 'Philosopher', sans-serif;
-    background-color: #481620;
+    background-color: RGBA(31,42,42,0.85);
     color:white;
     border-radius:4px;
 }
@@ -35,13 +35,7 @@ body {
 .main-image-2 {
     margin:auto;
     width: 50%;
-    border: 2px solid #481620;
     border-radius:100px;
-}
-
-.add-list-text {
-    text-decoration:underline #481620;
-
 }
 
  @media screen and (min-width: 320px) {
@@ -75,6 +69,10 @@ body {
         font-size: 30px;
         margin: 5px;
     }
+
+    .add-list-text {
+        font-size: 24px;
+    }
     
 
 }
@@ -88,7 +86,12 @@ body {
         font-size: 20px;
         width: 65%;
         margin-right: 15px;
-    } 
+    }
+    
+    .main-page {
+        margin-left:100px;
+        margin-right: 100px;
+    }
 
     .main-image-2 {
         display: none;
@@ -99,7 +102,6 @@ body {
         margin: auto;
         width: 55%;
         border-radius: 10px;
-        border: 5px solid #481620;
     }
 
     .fa-react, .fa-node-js, .fa-js, .fa-html5, .fa-css3-alt {
