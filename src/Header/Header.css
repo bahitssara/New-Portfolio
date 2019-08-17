@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: RGBA(134,137,132,0.45);
+  background-color: #0D1321;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -12,18 +12,19 @@
 .sidebar a {
   display: block;
   color: white;
-  padding: 16px;
+  padding: 18px;
   text-decoration: none;
+  text-shadow: 2px 2px 3px #93A3B1;
+  font-family: 'Quicksand', sans-serif;
 }
  
 .sidebar a.active {
-  background-color: RGBA(31,42,42,0.85)
-  ;
+  background-color: #93A3B1;
   color: white;
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: RGBA(31,42,42,0.85);
+  background-color: #93A3B1;
   color: white;
   border-radius: 5px;
 }
@@ -37,7 +38,7 @@ div.content {
 .main-image {
   margin-top:5px;
   width: 50%;
-  border: 2px solid RGBA(31,42,42,0.40);
+  /* border: 2px solid #DB8A74; */
   border-radius:100px;
 }
 

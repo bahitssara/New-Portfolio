@@ -3,16 +3,16 @@
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;    
-    color:#1D1E18;
+    color:black;
     background-color: white;
 
 }
 
  h3 {
     text-decoration:underline;
-    text-decoration-color: RGBA(31,42,42,0.85);
+    text-decoration-color: #A57982;
 }
 
 .headline {
@@ -22,12 +22,12 @@ body {
     width: 75%;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 8px 8px 5px RGBA(31,42,42,0.85);
+    box-shadow: 8px 8px 5px #0D1321;
 }  
 
 .main-page {
-    font-family: 'Philosopher', sans-serif;
-    background-color: RGBA(31,42,42,0.85);
+    font-family: 'Quicksand', sans-serif;
+    background-color: #0D1321;
     color:white;
     border-radius:4px;
 }
@@ -122,4 +122,9 @@ body {
         margin: auto;
         width: 45%;
     }  
+
+    .main-page {
+        margin-left:150px;
+        margin-right: 150px;
+    }
 }

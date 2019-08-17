@@ -3,19 +3,20 @@
     margin-left: auto;
     flex-direction: column;
     background-color: #ffffff;
-    box-shadow: 8px 8px 5px RGBA(31,42,42,0.85);
+    box-shadow: 8px 8px 5px #0D1321;
 }
 
 .contact-text {
     text-align: center;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
-    background-color:RGBA(31,42,42,0.85);
+    background-color:#0D1321;
     border-radius: 5px;
 }
 
 .contact {
-    color: black;
+    text-decoration: #0D1321 underline;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .contact-div{
@@ -46,19 +47,22 @@
     
     .contact {
         font-size:20px;
-        text-decoration: RGBA(31,42,42,0.85) underline;
     }
 
     .email-text {
         font-size: 18px;
+        margin: 30px;
     }
 
     .github-text {
         font-size: 18px;
+        margin: 30px;
     }
 
     .linkedin-text {
         font-size: 18px;
+        margin: 30px;
+
     }
 
     .contact-links-main a{
@@ -89,7 +93,7 @@
     }
 
     .contact {
-        font-size:35px;
+        font-size:30px;
     }
 
     .contact-links-main a{

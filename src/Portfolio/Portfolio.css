@@ -6,20 +6,19 @@
     padding-bottom: 20px;
     background-color: #ffffff;
     color: #1D1E18;
-    box-shadow: 8px 8px 5px RGBA(31,42,42,0.85);
+    box-shadow: 8px 8px 5px #0D1321;
 }
 
 .projects h2 {
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
-    background-color:RGBA(31,42,42,0.85);
+    background-color:#0D1321;
     border-radius: 5px;
 }
 
 .projects h3 {
     color: #1D1E18;
-    text-decoration:underline;
-    text-decoration-color: RGBA(31,42,42,0.85);
+    text-decoration:underline #A57982;
 }
 
 .project-photo {
@@ -37,7 +36,6 @@
 }
 
 .project-links {
-    font-family: 'Muli', sans-serif;
     color:white;
     list-style-type: none;
     display: flex;
@@ -54,7 +52,8 @@
 }
 
 button {
-    background-color:RGBA(31,42,42,0.85);
+    background-color:#0D1321;
+    font-family: 'Raleway', sans-serif;
     border-radius: 4px;
     color: white;
     padding: 20px;
@@ -64,7 +63,7 @@ button {
  button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    background-color:black;
+    background-color:#A57982;
 }
 
 
