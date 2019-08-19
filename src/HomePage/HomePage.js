@@ -7,7 +7,7 @@ import compImg from './comp-img2.jpg'
 
 export default function HomePage () {
   return (
-    <section className='headline headline-mobile'>
+    <section className='headline headline-mobile' id='page-wrap'>
       <div className='container'>
           <h2 className='main-page'>Sara Mayberry</h2>
           <h3>Full Stack Web Developer</h3>

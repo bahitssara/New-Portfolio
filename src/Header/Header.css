@@ -21,6 +21,7 @@
 .sidebar a.active {
   background-color: #93A3B1;
   color: white;
+  width: 200px;
 }
 
 .sidebar a:hover:not(.active) {
@@ -58,7 +59,6 @@ div.content {
 
 @media screen and (max-width: 700px) {
   .sidebar {
-    width: 100%;
     height: auto;
     position: relative;
   }
@@ -78,16 +78,22 @@ div.content {
 }
 
 @media screen and (min-width: 320px) {
+  .sidebar {
+    display: none;
+  }
   .main-image {
     display: none;
   }
-
   .contact-links {
-    display:none;
+    display: flex;
   }
 }
 
 @media screen and (min-width: 700px) {
+  .sidebar {
+    display: block;
+  }
+
   .main-image {
     display: block;
     margin: auto;
@@ -96,6 +102,10 @@ div.content {
 
   .contact-links {
     display: flex;
+  }
+
+  .hidden {
+    display: none;
   }
 }
 

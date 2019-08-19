@@ -1,22 +1,21 @@
 import React from 'react';
-import './Header.css';
 import { Link } from 'react-router-dom';
-import mainImg from './contact-copy.png'
-import MobileHeader from '../MobileHeader/MobileHeader';
+import './MobileHeader.css'
+import { fallDown as Menu } from 'react-burger-menu';
 
-
-class Header extends React.Component {
-  render(){
-    return (   
-      <div className ='mobile'>
-        <MobileHeader 
-          pageWrapId={ 'page-wrap' }
-          outerContainerId={ 'outer-container' }
-
-        />
-      <div className='sidebar'>
+function MobileHeader() {
+  return (
+    // Pass on our props
+    <Menu 
+        customBurgerIcon={<i className='fa fa-bars'/>}
+        pageWrapId={ 'page-wrap' }
+        outerContainerId={ 'outer-container' }
+        width={150}
+        className='burger-menu'
+        noOverlay
+    >
+      <div className='sidebar-mobile'>
         <Link className='active' to='/'>Sara Mayberry</Link>
-        <img className='main-image' src={mainImg} alt='lights header' />
         <Link to='/projects'>Portfolio </Link>
         <Link to='/about-me'>About Me</Link>
         <Link to='/contact'>Contact</Link>
@@ -24,12 +23,10 @@ class Header extends React.Component {
                 <li><a href='mailto:saraamayberry@yahoo.com'><i className='fas fa-envelope'/></a></li>
                 <li><a href='https://github.com/bahitssara' target='_blank' rel="noopener noreferrer"><i className='fab fa-github-square'/></a></li>
                 <li><a href='https://www.linkedin.com/in/sara-mayberry-444800153/' target='_blank' rel="noopener noreferrer"><i className='fab fa-linkedin'/></a></li>
-        </ul>
+            </ul>
       </div>
-      </div>
-    )
-  }
-}
+    </Menu>
+  );
+};
 
- 
-export default Header;
+export default MobileHeader;

@@ -9,12 +9,14 @@ import AboutMe from '../AboutMe/AboutMe';
 class App extends React.Component {
   render(){
     return (
-      <div className="App">
+      <div className='App' id='outer-container'>
         <Route path='/' component={Header} />
-        <Route path='/' exact component={HomePage} />
-        <Route path='/projects' exact component={Portfolio} />
-        <Route path='/about-me' exact component={AboutMe} />
-        <Route path='/contact' exact component={Contact} />
+        <main id='page-wrap'>
+          <Route path='/' exact component={HomePage} />
+          <Route path='/projects' exact component={Portfolio} />
+          <Route path='/about-me' exact component={AboutMe} />
+          <Route path='/contact' exact component={Contact} />
+        </main>
       </div>
     );
   }

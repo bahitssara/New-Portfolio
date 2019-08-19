@@ -91,7 +91,7 @@ button {
     }
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 700px) {
     .projects {
         width: 70%;
         font-size: 28px;
