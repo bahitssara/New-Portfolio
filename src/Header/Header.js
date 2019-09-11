@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import mainImg from './contact-copy.png'
+import mainImg from './contact.jpg'
 import MobileHeader from '../MobileHeader/MobileHeader';
 
 

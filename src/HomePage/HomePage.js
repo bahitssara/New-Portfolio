@@ -1,7 +1,7 @@
 import React from 'react'
 import './HomePage.css'
 import { Link } from 'react-router-dom'
-import mainImg from './contact-copy-2.png'
+import mainImg from './contact.jpg'
 import compImg from './comp-img2.jpg'
 
 

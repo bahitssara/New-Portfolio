@@ -11,29 +11,19 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div className='portfolio'>
+                <h2>Projects</h2>
                     <section className='projects'>
-                        <h2>Projects</h2>
-                        <h3>The 1975 Quiz App</h3>
-                        <a href='https://bahitssara.github.io/QUIZAPP/'><img className='project-photo' src={QuizAppPic} alt='project' /></a>
+                        <h3>Just Go</h3>
+                        <a href='https://github.com/bahitssara/Just-Go'><img className='project-photo' src={JustGo} alt='project' /></a>
                             <ul className='project-links'>
                                 <li>
-                                    <button><a href='https://github.com/bahitssara/QUIZAPP' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
+                                    <button><a href='https://github.com/bahitssara/Just-Go' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
                                 <li>
-                                    <button><a href='https://bahitssara.github.io/QUIZAPP/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
+                                    <button><a href='https://just-go-app.now.sh/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
                             </ul>
-                            <p className='description'>Quiz app to test knowledge of the all time best band around, The 1975. Uses basic HTML, CSS, JavaScript and jQuery to create a short interactive web app. </p>
-                    </section>
+                            <p className='description'>Just Go is an app that allows you to search events by name, location or type and then save them to your profile to potentially purchase later. It uses SeatGeek API to facilitate the search feature and links you to their site to purchase tickets! This full stack app is built with ReactJS, Node.js, PostgreSQL, HTML, and CSS.
 
-                    <section className='projects'>
-                        <h3>Big Music Guy-API HACK</h3>
-                        <a href='https://github.com/bahitssara/Big-Music-Guy'><img className='project-photo' src={BigMusicGuy} alt='project' /></a>
-                            <ul className='project-links'>
-                                <li>
-                                    <button><a href='https://github.com/bahitssara/Big-Music-Guy' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
-                                <li>
-                                    <button><a href='https://bahitssara.github.io/Big-Music-Guy/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
-                            </ul>
-                            <p className='description'>Web app for music lovers. Allows users to search a musician or band and recieve Youtube video interviews, recent news articles, and recommendations for similar artists. APIs used are Youtube API, News API, and TasteDive API. Technologies used to make up the app are HTML, CSS, JavaScript, and jQuery.</p>
+                            </p>
                     </section>
 
                     <section className='projects'>
@@ -49,18 +39,43 @@ class Portfolio extends React.Component {
                             </p>
                     </section>
 
+
                     <section className='projects'>
-                        <h3>Just Go</h3>
-                        <a href='https://github.com/bahitssara/Just-Go'><img className='project-photo' src={JustGo} alt='project' /></a>
+                        <h3>Big Music Guy-API HACK</h3>
+                        <a href='https://github.com/bahitssara/Big-Music-Guy'><img className='project-photo' src={BigMusicGuy} alt='project' /></a>
                             <ul className='project-links'>
                                 <li>
-                                    <button><a href='https://github.com/bahitssara/Just-Go' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
+                                    <button><a href='https://github.com/bahitssara/Big-Music-Guy' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
                                 <li>
-                                    <button><a href='https://just-go-app.now.sh/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
+                                    <button><a href='https://bahitssara.github.io/Big-Music-Guy/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
                             </ul>
-                            <p className='description'>Just Go is an app that allows you to search events by name, location or type and then save them to your profile to potentially purchase later. It uses SeatGeek API to facilitate the search feature and links you to their site to purchase tickets! This full stack app is built with JS, Node.js, PostgreSQL, HTML, and CSS.
+                            <p className='description'>Web app for music lovers. Allows users to search a musician or band and recieve Youtube video interviews, recent news articles, and recommendations for similar artists. APIs used are Youtube API, News API, and TasteDive API. Technologies used to make up the app are HTML, CSS, JavaScript, and jQuery.</p>
+                    </section>
+
+                    <section className='projects'>
+                        <h3>Makazi Enterprises</h3>
+                        <a href='https://github.com/bahitssara/makazi'><img className='project-photo' src='https://www.umsh.com/wp-content/uploads/2018/09/comingsoon-1024x585.jpg' alt='project' /></a>
+                            <ul className='project-links'>
+                                <li>
+                                    <button><a href='https://github.com/bahitssara/makazi' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
+                                <li>
+                                    <button><a href='https://github.com/bahitssara/makazi' target='_blank' rel='noopener noreferrer'>Coming Soon</a></button></li>
+                            </ul>
+                            <p className='description'>Currently working freelance for Makazi Enterprises, a non profit working to end the world home crisis. Their site is to be built with HTML, CSS, and ReactJS. 
 
                             </p>
+                    </section>
+
+                    <section className='projects'>
+                        <h3>The 1975 Quiz App</h3>
+                        <a href='https://bahitssara.github.io/QUIZAPP/'><img className='project-photo' src={QuizAppPic} alt='project' /></a>
+                            <ul className='project-links'>
+                                <li>
+                                    <button><a href='https://github.com/bahitssara/QUIZAPP' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
+                                <li>
+                                    <button><a href='https://bahitssara.github.io/QUIZAPP/' target='_blank' rel='noopener noreferrer'>Live Page</a></button></li>
+                            </ul>
+                            <p className='description'>Quiz app to test knowledge of the all time best band around, The 1975. Uses basic HTML, CSS, JavaScript and jQuery to create a short interactive web app. </p>
                     </section>
             </div>
         )
