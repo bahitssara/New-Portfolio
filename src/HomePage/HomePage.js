@@ -13,14 +13,14 @@ export default function HomePage () {
           <h3>Full Stack Web Developer</h3>
           <img className='main-image-2' src={mainImg} alt='lights header' />
           <img className='main-image-comp' src={compImg} alt='comp main' />
-          <p className='inside-img'>Currently working with:</p>
+          <p className='inside-img'>The tech:</p>
             <i className='fab fa-html5' alt='html5'/>
             <i className='fab fa-js' alt='javascript'/>
             <i className='fab fa-react' alt='react'/>
             <i className='fab fa-node-js 'alt='nodejs'/>
             <i className='fab fa-css3-alt' />
             <p className='add-list-text'>And always adding to the list</p>
-          <p>I spent the last year studying full stack web development, and pursuing my dream career. Software and the web isn't something that I've ever needed to force on myself. Having the opportunity to work with fellow developers and grow within the tech industry is now in my grasp and I've never felt more in my place!</p>
+          <p>I spent the last year studying full stack web development, and pursuing my dream career. Software and the web isn't something that I've ever needed to force on myself. Having the opportunity to work with fellow developers and grow within the tech industry is now in my grasp and I've never felt more in my place! Currently working as a <strong>Web Developer</strong> at Look Listen in Denver, CO!</p>
           <Link to='/projects'><button>Check out my work!</button></Link>
           
       </div>

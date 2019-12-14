@@ -3,6 +3,7 @@ import './Portfolio.css'
 import QuizAppPic from './QuizAppPic.png'
 import BigMusicGuy from './BigMusicGuy.png'
 import SipandRate from './SipandRate.png'
+import MakaziGif from './makazi.gif'
 import JustGo from './JustGo.png'
 
 
@@ -54,14 +55,14 @@ class Portfolio extends React.Component {
 
                     <section className='projects'>
                         <h3>Makazi Enterprises</h3>
-                        <a href='https://github.com/bahitssara/makazi'><img className='project-photo' src='https://www.umsh.com/wp-content/uploads/2018/09/comingsoon-1024x585.jpg' alt='project' /></a>
+                        <a href='https://github.com/bahitssara/makazi'><img className='project-photo' src={MakaziGif} alt='project' /></a>
                             <ul className='project-links'>
                                 <li>
                                     <button><a href='https://github.com/bahitssara/makazi' target='_blank' rel='noopener noreferrer'>Repository</a></button></li>
                                 <li>
-                                    <button><a href='https://github.com/bahitssara/makazi' target='_blank' rel='noopener noreferrer'>Coming Soon</a></button></li>
+                                    <button><a href='https://makazienterprises.com/' target='_blank' rel='noopener noreferrer'>Site is live!</a></button></li>
                             </ul>
-                            <p className='description'>Currently working freelance for Makazi Enterprises, a non profit working to end the world home crisis. Their site is to be built with HTML, CSS, and ReactJS. 
+                            <p className='description'>Currently working freelance for Makazi Enterprises, a non profit working to end the world home crisis. Their site is to built with HTML, CSS, and ReactJS. 
 
                             </p>
                     </section>
